@@ -16,7 +16,7 @@
             text-align: center;
         }
 
-        .container{
+        #container{
             display: flex;
             justify-content: center;
             align-items: center;
@@ -30,18 +30,18 @@
     </style>
 </head>
 <body>
-
+    <h1 class="head">firestore</h1>
     <form id="form">
-        <h1>Firestore Project</h1>
-        
-        <input type="text" id="text" placeholder="title" required><br><br>
-        <textarea name="description" id="description" placeholder="description" required></textarea><br>
-        <button type="submit" id="Add">Submit</button>
+        <input type="text" placeholder="title" id="title" required>
+        <textarea name="" id="description" placeholder="enter description" required></textarea>
+        <button>Add Todo</button>
     </form>
-    <br><br>
-    <div id="container"></div>
-        
+
+    <div class="container">
+                
     </div>
-    <script type="module" src="./app.js"></script>
+
+    <script type="module" src="app.js"></script>
 </body>
+
 </html>
